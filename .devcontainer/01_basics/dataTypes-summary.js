@@ -51,3 +51,27 @@ String	"string"
 Object (native and does not implement [[Call]])	"object"
 Object (native or host and does implement [[Call]])	"function"
 Object (host and does not implement [[Call]])	Implementation-defined except may not be "undefined", "boolean", "number", or "string". */
+
+// ++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-primitive).
+
+let myYoutubename = "anubhavdotcom"
+
+let anothername = myYoutubename
+anothername = "anubhavcodes"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "anubhav@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
