@@ -32,4 +32,4 @@ console.log(url.replace('%20', '-'));
 
 console.log(gameName.split('-'));
 
-console.log(url.includes('gaspby'));
+console.log(url.includes('gaspby')); //will tell whether this element is in string or not?//
