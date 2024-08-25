@@ -32,3 +32,22 @@ if(Object.keys(emptyObj).length === 0){
 //false == 0 (o/p: true)
 //false == ''(o/p: true)
 //0 == '' (o/p: true)
+
+
+//Nullish Coalescing Operator (??): it works only on null undefined.
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+// val1 = null ?? 10 ?? 20
+
+console.log(val1);
+
+
+//Terniary Operator
+
+//Condition ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
