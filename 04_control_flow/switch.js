@@ -27,3 +27,18 @@ switch (month) {
         console.log("default case match");
         break;
 }
+
+//Anothe case let say if it would have been string in place of const month=3 then what we could have write is given below:
+
+switch (key) {
+    case "January":
+        console.log("January");
+        break;
+    case "February":
+        console.log("February");
+        break;
+
+    default:
+        console.log("default case match");
+        break;
+}
