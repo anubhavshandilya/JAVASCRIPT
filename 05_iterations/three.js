@@ -24,5 +24,17 @@ map.set('Fr', "France")
 //console.log(map)
 
 for (const [key, value] of map) {
-    console.log(key, ':-', value);
+    //console.log(key, ':-', value);
 }
+
+const myObject = {
+    game1: 'NFS',
+    game2: 'COD' 
+}
+
+// for(const [key, value] of myObject){
+//     console.log(key, ':-', value);
+// }
+//Note: object ko iterate karne ka dusra tareeka hota hai so in this case the o/p will come as the object is not iterable.
+
+
